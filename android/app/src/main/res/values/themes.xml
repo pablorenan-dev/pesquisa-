@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tema base mínimo. As cores e o visual definitivos são da 1C. -->
+<resources>
+    <style name="Theme.GestaoFinanceira" parent="Theme.Material3.DayNight" />
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cada área fica no seu bloco, com o prefixo dela (ver "Git com três pessoas" no plano). -->
+<resources>
+    <!-- Nome provisório: a Fase 0 ainda vai decidir o nome do app. -->
+    <string name="app_name">Gestão Financeira</string>
+
+    <!-- ===== login_ (1B) ===== -->
+    <string name="login_subtitulo">Entre com seu e-mail e senha</string>
+    <string name="login_email_hint">E-mail</string>
+    <string name="login_senha_hint">Senha</string>
+    <string name="login_botao_entrar">Entrar</string>
+    <string name="login_carregando">Entrando…</string>
+    <string name="login_erro_email_vazio">Informe o e-mail</string>
+    <string name="login_erro_senha_vazia">Informe a senha</string>
+    <string name="login_erro_credenciais">E-mail ou senha incorretos.</string>
+    <string name="login_erro_validacao">Confira o e-mail e a senha.</string>
+    <string name="login_erro_sem_conexao">Sem conexão com o servidor. Confira a internet e tente de novo.</string>
+    <string name="login_erro_timeout">O servidor demorou para responder. Tente de novo.</string>
+    <string name="login_erro_servidor">Erro no servidor. Tente de novo em instantes.</string>
+
+</resources>

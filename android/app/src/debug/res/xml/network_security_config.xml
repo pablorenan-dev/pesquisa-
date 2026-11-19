@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Só no build de debug: libera HTTP comum para o computador de desenvolvimento e nada mais. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Emulador: 10.0.2.2 é o computador onde o backend roda. -->
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <!-- Celular de verdade: acrescentar aqui o IP do PC na rede, ex.: 192.168.0.10. -->
+    </domain-config>
+</network-security-config>
